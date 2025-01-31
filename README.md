@@ -1,16 +1,36 @@
-## Hi there 👋
-
-<!--
-**SuporteTIdecorlux/SuporteTIdecorlux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| **Prefixo**   | **Descrição**                                                        | **Comando Git**                                           | **Resultado no GitHub**                                  |
+|---------------|----------------------------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------------|
+| `:bug:`       | Correção de bugs                                                      | `git commit -m ":bug: fix: corrigir erro de cálculo no botão de submit"`  | :bug: fix: corrigir erro de cálculo no botão de submit   |
+| `:sparkles:`  | Nova funcionalidade                                                   | `git commit -m ":sparkles: feat: adicionar filtro de pesquisa na página principal"`  | :sparkles: feat: adicionar filtro de pesquisa na página principal |
+| `:wrench:`    | Tarefas de manutenção ou ajustes não relacionados ao código de negócio | `git commit -m ":wrench: chore: atualizar dependências do projeto"`  | :wrench: chore: atualizar dependências do projeto         |
+| `:memo:`      | Alterações na documentação                                             | `git commit -m ":memo: docs: adicionar instruções no README para novos colaboradores"`  | :memo: docs: adicionar instruções no README para novos colaboradores |
+| `:art:`       | Mudanças no estilo do código (formatação, sem mudança de funcionalidade) | `git commit -m ":art: style: corrigir indentação no arquivo utils.js"`  | :art: style: corrigir indentação no arquivo utils.js      |
+| `:recycle:`   | Refatoração de código (sem alteração de funcionalidade)               | `git commit -m ":recycle: refactor: melhorar a estrutura do código na função de login"`  | :recycle: refactor: melhorar a estrutura do código na função de login |
+| `:test_tube:` | Alterações ou adição de testes                                         | `git commit -m ":test_tube: test: adicionar testes para função de cálculo de desconto"`  | :test_tube: test: adicionar testes para função de cálculo de desconto |
+| `:zap:`       | Melhorias de performance                                               | `git commit -m ":zap: perf: otimizar consulta SQL na tabela de usuários"`  | :zap: perf: otimizar consulta SQL na tabela de usuários   |
+| `:package:`   | Mudanças nos arquivos de build ou configuração                       | `git commit -m ":package: build: configurar Webpack para produção"`  | :package: build: configurar Webpack para produção        |
+| `:construction_worker:` | Alterações no pipeline de integração contínua                   | `git commit -m ":construction_worker: ci: corrigir configuração do GitHub Actions"`  | :construction_worker: ci: corrigir configuração do GitHub Actions |
+| `:tada:`      | Preparação de release (geralmente versão)                             | `git commit -m ":tada: release: versão 2.3.0"`  | :tada: release: versão 2.3.0  |
+| `:fire:`      | Correção urgente de produção                                           | `git commit -m ":fire: hotfix: corrigir erro de autenticação na produção"`  | :fire: hotfix: corrigir erro de autenticação na produção |
+| `:construction:` | Trabalho em progresso (commit incompleto)                           | `git commit -m ":construction: wip: implementar novo sistema de notificações"`  | :construction: wip: implementar novo sistema de notificações |
+| `:rewind:`    | Reversão de um commit anterior                                         | `git commit -m ":rewind: revert: desfazer commit 5f8e9d3 (erro na função de login)"`  | :rewind: revert: desfazer commit 5f8e9d3 (erro na função de login) |
+| `:twisted_rightwards_arrows:` | Mesclagem de branches                                          | `git commit -m ":twisted_rightwards_arrows: merge: integrar branch 'feature/autenticacao'"`  | :twisted_rightwards_arrows: merge: integrar branch 'feature/autenticacao' |
+| `:art:`       | Alterações na experiência do usuário (UI/UX)                          | `git commit -m ":art: ux: ajustar layout do painel de administração"`  | :art: ux: ajustar layout do painel de administração      |
+| `:lock:`      | Correções de segurança                                                 | `git commit -m ":lock: security: corrigir vulnerabilidade de SQL Injection"`  | :lock: security: corrigir vulnerabilidade de SQL Injection |
+| `:bar_chart:` | Alterações em dados ou esquemas de banco de dados                      | `git commit -m ":bar_chart: data: adicionar coluna 'data_nascimento' em 'usuarios'"`  | :bar_chart: data: adicionar coluna 'data_nascimento' em 'usuarios' |
+| `:package:`   | Alterações nas configurações do projeto                               | `git commit -m ":package: config: ajustar variáveis de ambiente para produção"`  | :package: config: ajustar variáveis de ambiente para produção |
+| `:globe_with_meridians:` | Alterações de internacionalização (traduções)                     | `git commit -m ":globe_with_meridians: i18n: adicionar suporte ao idioma espanhol"`  | :globe_with_meridians: i18n: adicionar suporte ao idioma espanhol |
+| `:bulb:`      | Alterações em logs ou monitoramento                                    | `git commit -m ":bulb: logs: adicionar log detalhado para a API de pagamento"`  | :bulb: logs: adicionar log detalhado para a API de pagamento |
+| `:construction:` | Alterações temporárias ou para testes                               | `git commit -m ":construction: tmp: teste de performance no endpoint X"`  | :construction: tmp: teste de performance no endpoint X   |
+| `:boom:`      | Alterações nas dependências do projeto                                 | `git commit -m ":boom: deps: atualizar pacote lodash para a versão 4.0.0"`  | :boom: deps: atualizar pacote lodash para a versão 4.0.0 |
+| `:iphone:`    | Alterações específicas para projetos Android                          | `git commit -m ":iphone: android: corrigir erro no layout da tela de login"`  | :iphone: android: corrigir erro no layout da tela de login |
+| `:apple:`     | Alterações específicas para projetos iOS                              | `git commit -m ":apple: ios: corrigir problema na inicialização do app"`  | :apple: ios: corrigir problema na inicialização do app  |
+| `:memo:`      | Alterações em arquivos JSON                                            | `git commit -m ":memo: json: corrigir formato no arquivo de configuração"`  | :memo: json: corrigir formato no arquivo de configuração |
+| `:page_facing_up:` | Alterações em arquivos YAML                                          | `git commit -m ":page_facing_up: yaml: corrigir indentação no arquivo de configuração"`  | :page_facing_up: yaml: corrigir indentação no arquivo de configuração |
+| `:nail_care:` | Alterações específicas na interface de usuário                        | `git commit -m ":nail_care: ui: melhorar a animação de transição de tela"`  | :nail_care: ui: melhorar a animação de transição de tela |
+| `:lipstick:`  | Alterações nos estilos CSS                                             | `git commit -m ":lipstick: css: corrigir cor de fundo do botão de submit"`  | :lipstick: css: corrigir cor de fundo do botão de submit |
+| `:art:`       | Alterações nos estilos SCSS                                            | `git commit -m ":art: scss: ajustar padding no componente de menu"`  | :art: scss: ajustar padding no componente de menu        |
+| `:heavy_plus_sign:` | Alterações em arquivos HTML                                          | `git commit -m ":heavy_plus_sign: html: corrigir estrutura de elementos no cabeçalho"`  | :heavy_plus_sign: html: corrigir estrutura de elementos no cabeçalho |
+| `:art:`       | Alterações nos ativos (imagens, fontes, etc.)                         | `git commit -m ":art: assets: adicionar ícones de redes sociais"`  | :art: assets: adicionar ícones de redes sociais           |
+| `:package:`   | Alterações ou adições de migrações de banco de dados                  | `git commit -m ":package: migration: criar tabela de logs de acessos"`  | :package: migration: criar tabela de logs de acessos      |
+| `:thought_balloon:` | Alterações em operações assíncronas                                  | `git commit -m ":thought_balloon: async: refatorar código para usar async/await"`  | :thought_balloon: async: refatorar código para usar async/await |
